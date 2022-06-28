@@ -2,7 +2,7 @@
 #!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TIDAL_1.png
 
 [Script]
-http-response ^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)) requires-body=0,max-size=0, script-path=https://raw.githubusercontent.com/Anotherhour/surge/main/Tidal.js, timeout=10
+http-response ^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)) script-path=https://raw.githubusercontent.com/Anotherhour/surge/main/Tidal.js, timeout=10
 
 
 [MITM]
