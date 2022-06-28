@@ -1,0 +1,8 @@
+#!name= Tidal plus
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TIDAL_1.png
+
+[Script]
+http-response ^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)) requires-body=0,max-size=0, script-pathhttps://raw.githubusercontent.com/Anotherhour/surge/main/Tidal.js, tag=TIDAL
+
+[MITM]
+hostname = api.tidal.com
