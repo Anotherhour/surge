@@ -1,0 +1,12 @@
+#!name=dazn
+#!desc=dazn解锁检测
+
+
+[Panel]
+dazn_check = script-name=dazn_check, title="dazn", content="请刷新", update-interval=86400
+
+
+
+[Script]
+
+path= https://raw.githubusercontent.com/Anotherhour/surge/main/Dan.js
