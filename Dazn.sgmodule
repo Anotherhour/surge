@@ -9,4 +9,4 @@ dazn_check = script-name=dazn_check, title="dazn", content="请刷新", update-i
 
 [Script]
 
-path= https://raw.githubusercontent.com/Anotherhour/surge/main/Dan.js
+dazn_check = type=generic,timeout=5,script-path= https://raw.githubusercontent.com/Anotherhour/surge/main/Dan.js
