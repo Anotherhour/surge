@@ -1,0 +1,13 @@
+#!name=Paramount
+#!desc=派拉蒙解锁检测
+
+
+[Script]
+Paramount_check = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Anotherhour/surge/main/Paramount.js
+
+
+
+
+
+[Panel]
+Paramount_check = script-name=ytb_check, title="派拉蒙", content="请刷新", update-interval=86400
