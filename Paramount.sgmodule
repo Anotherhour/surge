@@ -10,4 +10,4 @@ Paramount_check = type=generic,timeout=5,script-path=https://raw.githubuserconte
 
 
 [Panel]
-Paramount_check = script-name=ytb_check, title="派拉蒙", content="请刷新", update-interval=86400
+Paramount_check = script-name=ytb_check, title="Paramount", content="请刷新", update-interval=86400
