@@ -7,7 +7,7 @@
 
 const DEFAULT_OPTIONS = {
     title: 'DAZN',
-    availableContent: '完整解锁地区是这个➳#REGION_CODE',
+    availableContent: '完整解锁#REGION_CODE#地区',
     availableIcon: 'checkmark.seal',
     availableIconColor: '#16A951',
     availableStyle: 'good',
