@@ -1,5 +1,5 @@
 const DEFAULT_OPTIONS = {
-    title: 'DAZN',
+    title: 'DAZN解锁查询',
     availableContent: ' 在#REGION_CODE#已解锁DAZN！',
     availableIcon: 'checkmark.seal',
     availableIconColor: '#16A951',
@@ -10,7 +10,7 @@ const DEFAULT_OPTIONS = {
     comingIconColor: '#FFD700',
     comingStyle: 'info',
     notAvailabletitle: '骚等，这里有一点点小问题',
-    notAvailableContent: '你不能在这里看Dazn！',
+    notAvailableContent: '暂时看不了Dazn，还没解锁！',
     notAvailableIcon: 'eye.slash',
     notAvailableIconColor: '#DC143C',
     notAvailableStyle: 'alert',
