@@ -6,8 +6,8 @@
 
 
 const DEFAULT_OPTIONS = {
-    title: 'DAZN',
-    availableContent: '完整解锁#REGION_CODE#地区',
+    title: 'DAZN解锁查询',
+    availableContent: '已完整解锁#REGION_CODE#地区',
     availableIcon: 'checkmark.seal',
     availableIconColor: '#16A951',
     availableStyle: 'good',
@@ -17,12 +17,12 @@ const DEFAULT_OPTIONS = {
     comingIconColor: '#FFD700',
     comingStyle: 'info',
     notAvailabletitle: '等下，有点问题',
-    notAvailableContent: '看你🐴的Dazn',
+    notAvailableContent: '无法观看，线路没有解锁Dazn',
     notAvailableIcon: 'eye.slash',
     notAvailableIconColor: '#DC143C',
     notAvailableStyle: 'alert',
-    errortitle: '看Dazn前网络好不好没有逼数吗',
-    errorContent: '点我，大傻呗',
+    errortitle: '看Dazn前请检查网络',
+    errorContent: '点我，刷新一下',
     errorIcon: 'wifi.slash',
     errorIconColor: '#000000',
     errorStyle: 'error',
