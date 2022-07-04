@@ -37,7 +37,7 @@ var flags = new Map([[ "AC" , "🇦🇨" ] ,["AE","🇦🇪"], [ "AF" , "🇦�
       } else if (status==STATUS_AVAILABLE){
         //console.log(2)
         console.log(region)
-        disney_result="迪士尼➟"+flags.get region.toUpperCase()
+        disney_result="迪士尼➟"+flags.get + region.toUpperCase()
         // console.log(result["Disney"])
       } else if (status==STATUS_NOT_AVAILABLE) {
         //console.log(3)
@@ -96,7 +96,7 @@ panel_result['content'] = content
         if (code === 'Not Available') {
           youtube_check_result += '未解锁'
         } else {
-          youtube_check_result +=flags.get code.toUpperCase()
+          youtube_check_result +=flags.get + code.toUpperCase()
         }
       })
       .catch((error) => {
@@ -152,7 +152,7 @@ panel_result['content'] = content
         if (code === 'Not Found') {
           return inner_check(80018499)
         }
-        netflix_check_result+=flags.get code.toUpperCase()
+        netflix_check_result+=flags.get + code.toUpperCase()
         return Promise.reject('BreakSignal')
       })
       .then((code) => {
@@ -160,7 +160,7 @@ panel_result['content'] = content
           return Promise.reject('Not Available')
         }
   
-        netflix_check_result += '自制' + flags.get code.toUpperCase()
+        netflix_check_result += '自制' + flags.get + code.toUpperCase()
         return Promise.reject('BreakSignal')
       })
       .catch((error) => {
